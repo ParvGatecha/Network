@@ -7,6 +7,8 @@
 .btn{
     border-radius: 20px;
     padding: 0.32rem 1rem 0.375rem 1rem;
+    margin-right: 10px;
+    float: right;
 }
 .btn, .btn:focus, .btn:active{
     box-shadow: none !important;
@@ -22,7 +24,7 @@
     color: #28a745;
     line-height: .82em;
     padding: 4px;
-    margin: 0px;
+    margin: 5px;
     border-radius: 999px;
     width: max-content;
 }
@@ -115,8 +117,8 @@ svg{
     width: 47.25%;
     min-height: 100vh;
     left: 21.8%;
-    /*display: flex;
-    flex-basis: auto;*/
+    display: flex;
+    flex-basis: auto;
 }
 .left-div{
     position: relative;
@@ -278,6 +280,7 @@ svg{
 }
 .profile-details button{
     padding-bottom: 0.3rem;
+    margin-right: 10px;
 }
 .profile-details > .details-data{
     margin-top: 52px;
@@ -317,11 +320,11 @@ svg{
     animation-fill-mode: forwards;
     animation-play-state: paused;
 }
-/*.post:hover{
+.post:hover{
     background-color: #f5f8fa;
     transition-duration: .4s;
     cursor: pointer;
-}*/
+}
 .post > div{
     display: flex;
 }
@@ -757,6 +760,7 @@ svg{
 }
 .large-popup .float-right{
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 

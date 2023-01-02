@@ -326,7 +326,7 @@ function unsave_post(element) {
 }
 
 
-function follow_user(element, username, origin) {
+function followuser(element, username, origin) {
     if(document.querySelector('#user_is_authenticated').value === 'False') {
         login_popup('follow');
         return false;
@@ -358,7 +358,7 @@ function follow_user(element, username, origin) {
     });
 }
 
-function unfollow_user(element, username, origin) {
+function unfollowuser(element, username, origin) {
     if(document.querySelector('#user_is_authenticated').value === 'False') {
         login_popup('follow');
         return false;

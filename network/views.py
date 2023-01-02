@@ -7,7 +7,6 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 from django.core.paginator import Paginator
 import json
-from django.contrib import messages
 
 from .models import *
 
@@ -370,3 +369,6 @@ def delete_post(request, post_id):
             return HttpResponse("Method must be 'PUT'")
     else:
         return HttpResponseRedirect(reverse('login'))
+
+def messages_page(request):
+    return render(request,'network/messages.html')
